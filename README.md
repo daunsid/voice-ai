@@ -45,7 +45,7 @@ This pipeline is structured for easy extension and integration into **real-time 
 3. Use the `app/` directory to test the inference api
     - `python3 -m venv venv`
     - `source venv/bin/activate`
-    -  `pip install - requiremnets.txt`
+    -  `pip install -r requiremnets.txt`
     - `uvicorn inference_pipeline.app:app --reload --host 0.0.0.0 --port 8000`
 ---
 
