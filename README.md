@@ -43,8 +43,10 @@ This pipeline is structured for easy extension and integration into **real-time 
 1. Open the notebook `intent_classification_notebook.ipynb` to see **full code and methodology**.
 2. View `docs/summary_report.pdf` for a **concise explanation** of design choices, assumptions, and results.
 3. Use the `app/` directory to test the inference api
-    -  
-
+    - `python3 -m venv venv`
+    - `source venv/bin/activate`
+    -  `pip install - requiremnets.txt`
+    - `uvicorn inference_pipeline.app:app --reload --host 0.0.0.0 --port 8000`
 ---
 
 ## Notes
